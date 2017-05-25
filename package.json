@@ -1,0 +1,26 @@
+{
+  "name": "koa-firebase-auth-demo",
+  "version": "1.0.0",
+  "description": "Koa + Firebase Auth Demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "./node_modules/.bin/eslint index.js app.js libs"
+  },
+  "keywords": [],
+  "author": "mosluce<mosluce@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "firebase-admin": "^5.0.0",
+    "koa": "^2.2.0",
+    "koa-logger": "2",
+    "koa-router": "^7.2.0",
+    "koa-send": "^4.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.3.0"
+  }
+}
